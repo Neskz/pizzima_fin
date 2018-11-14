@@ -1,0 +1,140 @@
+/* Main style */
+*{-moz-box-sizing: border-box; box-sizing: border-box;}
+
+html
+{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.btn
+{
+    position:absolute;
+    display:flex;
+    right:10px;
+    bottom:10px;
+    background: url('/static/fondnoir.jpg');
+}
+
+fieldset
+{
+    background-color: white;
+    width: 300px;
+    display:flex;
+    position: relative;
+    margin: auto;
+    background-color: rgb(54, 54, 54);
+}
+
+fieldset label
+{
+    color:white;
+    font-size: 1.2em;
+}
+
+fieldset input
+{
+    color:white;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo
+{
+    display: flex;    
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 60px;
+    height: 60px;
+}
+
+header h1
+{
+    position: relative;
+    bottom:10px;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0 0 0 20px;
+}
+
+header ul
+{
+    position: absolute;
+    right:0;
+}
+
+header li
+{
+    margin-right: 10px;
+}
+
+header a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav
+{
+    background:url('/static/fondpoudre.jpg');
+}
+
+body
+{
+    position: relative;
+    background: url('/static/fond.jpg');
+    width:100%;
+    min-height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+h3
+{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.renseignement
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+/* Footer */
+
+#logof
+{
+    position: absolute;
+    display:flex;
+    margin-bottom: 0px;
+    left: 0;
+    right: 0;
+    background:  url('/static/fondpoudre.jpg');
+}
+
+#logof p
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100;
+    text-align: center;
+}
+
+#logof img
+{
+    width: 60px;
+    height: 60px;
+}
